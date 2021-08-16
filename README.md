@@ -41,8 +41,14 @@ mongod
 
 - Run app.js using
 ```
-node app.js or nodemon (you need to install it seperatley using npm install nodemon)
+node app.js
+``` 
+or 
 ```
+nodemon
+``` 
+(you need to install it seperatley using npm install nodemon)
+
 
 - Open local host in your machine
 ```
