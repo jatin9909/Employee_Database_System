@@ -51,7 +51,7 @@ app.use((req, res, next) => {
 
 app.use(employeeRoutes);
 
-// const port = process.env.PORT;
-// app.listen(port, () => {
-// 	console.log('Server is started.');
-// });
+const port = process.env.PORT;
+app.listen(port, () => {
+	console.log('Server is started.');
+});
