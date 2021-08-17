@@ -18,7 +18,9 @@ mongoose.connect(process.env.DATABASE_LOCAL, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 	useCreateIndex: true
-});
+}).then((con) => {
+		console.log('Database connected successfully');
+	});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', path.join(__dirname, 'views'));
